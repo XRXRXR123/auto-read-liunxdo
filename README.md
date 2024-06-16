@@ -57,7 +57,7 @@ sudo apt-get install -y wget unzip fontconfig locales gconf-service libasound2 l
 docker-compose logs -f
 ```
 
-### 2.定时运行(目前存在问题)
+### 2.定时运行(目前存在一些问题)
 
 ```sh
 docker-compose -f cron-docker-compose.yml up -d
